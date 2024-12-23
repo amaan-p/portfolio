@@ -44,7 +44,7 @@ const CertItem = ({ school, degree, duration, logo }) => {
         logo: "/gcloud.jpg",
       },
       {
-        school: "Oracle Cloud Infrastructure AI Foundations",
+        school: "OCI AI Foundations",
         degree: "Oracle",
         duration: "May 2024",
         logo: "/oracle.png",
