@@ -2,9 +2,9 @@ const About = () => {
   return (
     <div>
       <div className="flex flex-col items-center p-8 pt-0 sm:p-0">
-        <div className="max-w-xl w-full">
+        <div className="max-w-2xl w-full">
           <div className="text-white font-medium text-lg">About</div>
-          <div className="text-gray-400  text-[0.8rem] pt-1 ">
+          <div className="text-gray-400  text-[0.8rem] md:text-[0.9rem] pt-1 ">
             Since childhood, I{"'"}ve been obsessed with technology, a gamer
             at heart who always had a PC nearby. My interest in computers led me
             to pursue a Bifocal Computer Science degree in junior college, which is

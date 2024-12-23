@@ -109,8 +109,8 @@ const Projects = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center p-8 pt-2 sm:pt-8 md:mb-[10%] mb-[30%] mt-2">
-        <div className="max-w-xl">
+      <div className="flex flex-col items-center p-3 pt-2 sm:pt-8 md:mb-[5%] mb-[10%] mt-2">
+        <div className="max-w-2xl">
           <div className="text-center">
             <div className="bg-white text-md pt-1 pb-1 rounded-lg font-medium w-36 mx-auto">
               My Projects
@@ -127,7 +127,7 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <div className="grid md:grid-cols-2 grid-col-1 gap-[0.4rem]">
+              <div className="grid md:grid-cols-2 grid-col-1 gap-[0.4rem] md:gap-5">
                 {projdata.map((project, index) => (
                   <ProjItems key={index} {...project} />
                 ))}

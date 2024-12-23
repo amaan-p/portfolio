@@ -4,7 +4,7 @@ const allskills=["React","Node.js","Javascript","Flutter","Python","Docker","Sve
   return (
     <>
       <div className="flex flex-col items-center p-8 pt-0">
-        <div className="max-w-xl w-full">
+        <div className="max-w-2xl w-full">
         <div className="text-white font-medium text-lg">Skills</div>
         <div className="flex flex-wrap gap-3 pt-3">
             {allskills.map((skill, index) => (

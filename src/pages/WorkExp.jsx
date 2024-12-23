@@ -78,7 +78,7 @@ const WorkExp = () => {
 
   return (
     <div className=" flex flex-col items-center p-8">
-      <div className="max-w-xl w-full">
+      <div className="max-w-2xl w-full">
         <h2 className="text-white font-medium text-lg mb-4">Work Experience</h2>
         {experiences.map((exp, index) => (
           <WorkItem key={index} {...exp} />

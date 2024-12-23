@@ -41,7 +41,7 @@ const EduExp = () => {
 
   return (
     <div className=" flex flex-col items-center p-8 pb-0">
-      <div className="max-w-xl w-full">
+      <div className="max-w-2xl w-full">
         <h2 className="text-white font-medium text-lg mb-4">Education</h2>
         {eduaction.map((exp, index) => (
           <EduExpItem key={index} {...exp} />
