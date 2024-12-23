@@ -1,12 +1,12 @@
 const Header = () => {
   return (
-    <div className=" flex flex-col items-center p-3 pb-2 ">
+    <div className=" flex flex-col items-center p-8 pb-2 ">
       <div className="max-w-xl w-full">
         <div className="flex items-center justify-between mb-6">
           <div className="flex-1">
-            <h1 className="text-4xl font-bold text-white mb-[0.4rem] md:text-4xl tracking-tight font-serif">
+            <div className="text-2xl font-bold text-white mb-[0.4rem] md:text-4xl tracking-tight mt-6">
               Hi, I{"'"}m Amaan 👋
-            </h1>
+            </div>
             <p className="text-md text-white md:text-md  tracking-tight leading-snug">
               Full-Stack Developer with 1 year of internship experience and a passion for creating diverse AI models.
             </p>

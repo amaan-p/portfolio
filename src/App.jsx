@@ -66,7 +66,7 @@ const ScrollToSection = () => {
       variants={containerVariants}
       className=''
     >
-      <motion.div ref={headerRef} variants={itemVariants} className='p-8 mt-6'>
+      <motion.div ref={headerRef} variants={itemVariants} >
         <Header />
       </motion.div>
       <motion.div variants={itemVariants}>
