@@ -16,7 +16,7 @@ const ProjItems = ({ name, duration, desc, tech, gitlinks, websitelink, img }) =
         <div className="space-y-3 flex-grow">
           <div className="text-gray-400 text-xs ">{duration}</div>
           
-          <h3 className="text-white text-xl font-bold tracking-tight font-serif shadow-none">{name}</h3>
+          <h3 className="text-white text-xl font-bold tracking-tight shadow-none">{name}</h3>
           
           {/* Description - adjusted line height and opacity */}
           <p className="text-gray-400 text-xs leading-relaxed line-clamp-2 w-full h-24">{desc}</p>
@@ -116,12 +116,12 @@ const Projects = () => {
               My Projects
             </div>
             <div>
-              <div className="text-white font-bold font-serif text-4xl pt-2">
+              <div className="text-white font-bold text-3xl md:text-4xl pt-4">
                 Check out my latest work
               </div>
             </div>
             <div>
-              <div className="text-gray-300 font-light text-sm pt-1 pb-7 mt-1 p-5">
+              <div className="text-gray-300 font-light text-sm pt-1 pb-10 mt-1 p-5">
                 I{"'"}ve worked on a variety of projects, from simple websites
                 to complex web applications. Here are a few of my favorites.
               </div>
