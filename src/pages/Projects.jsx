@@ -3,7 +3,7 @@
 import {Earth, Github } from "lucide-react";
 const ProjItems = ({ name, duration, desc, tech, gitlinks, websitelink, img }) => {
   return (
-    <div className="bg-black/20 backdrop-blur-sm border border-gray-800/50 rounded-lg  transition-all hover:scale-105 flex flex-col h-[32rem]">
+    <div className="bg-black/20 backdrop-blur-sm border border-gray-800/50 rounded-lg  transition-all hover:scale-105 flex flex-col h-[32rem] md:h-[34rem]">
       <div className="relative w-full h-auto mb-1 overflow-hidden rounded-lg rounded-b-none">
         <img
           src={img || "/api/placeholder/400/320"}
@@ -109,7 +109,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center p-8 pt-2 sm:pt-8 mb-[7%] mt-2">
+      <div className="flex flex-col items-center p-8 pt-2 sm:pt-8 mb-[10%] mt-2">
         <div className="max-w-xl">
           <div className="text-center">
             <div className="bg-white text-md pt-1 pb-1 rounded-lg font-medium w-36 mx-auto">
