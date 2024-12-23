@@ -109,7 +109,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center p-8 pt-2 sm:pt-8 md:mb-[50%] mb-[7%] mt-2">
+      <div className="flex flex-col items-center p-8 pt-2 sm:pt-8 md:mb-[10%] mb-[30%] mt-2">
         <div className="max-w-xl">
           <div className="text-center">
             <div className="bg-white text-md pt-1 pb-1 rounded-lg font-medium w-36 mx-auto">
