@@ -38,10 +38,10 @@ const WorkItem = ({ company, role, duration, logo, details }) => {
                     ${isExpanded ? "rotate-90" : ""}`}
                 />
               </div>
-              <p className="text-gray-400 font-light text-sm">{role}</p>
+              <p className="text-gray-400 font-medium text-xs md:text-sm">{role}</p>
             </div>
           </div>
-          <span className="text-gray-400 text-sm">{duration}</span>
+          <span className="text-gray-400 text-xs md:text-sm">{duration}</span>
         </div>
   
         {/* Expandable content */}

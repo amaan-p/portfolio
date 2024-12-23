@@ -20,10 +20,10 @@ const EduExpItem = ({ school, degree, duration, logo }) => {
                 <h3 className="text-sm font-semibold text-white">{school}</h3>
                 
               </div>
-              <p className="text-gray-400 font-light text-sm">{degree}</p>
+              <p className="text-gray-400 font-medium  text-xs md:text-sm">{degree}</p>
             </div>
           </div>
-          <span className="text-gray-400 text-sm md:text-sm ">{duration}</span>
+          <span className="text-gray-400 text-xs md:text-sm ">{duration}</span>
         </div>
     </div>
   );
@@ -33,7 +33,7 @@ const EduExp = () => {
   const eduaction = [
     {
       school: "University of Mumbai",
-      degree: "BSC in Computer Science",
+      degree: "BSc in Computer Science",
       duration: "June 2021 - May 2024",
       logo: "/uni.jpg",
     },
