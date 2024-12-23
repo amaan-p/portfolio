@@ -3,8 +3,8 @@
 import {Earth, Github } from "lucide-react";
 const ProjItems = ({ name, duration, desc, tech, gitlinks, websitelink, img }) => {
   return (
-    <div className="bg-black/20 backdrop-blur-sm border border-gray-800/50 rounded-xl m-1 transition-all hover:scale-105 flex flex-col h-[32rem]">
-      <div className="relative w-full h-auto mb-1 overflow-hidden rounded-sm">
+    <div className="bg-black/20 backdrop-blur-sm border border-gray-800/50 rounded-lg  transition-all hover:scale-105 flex flex-col h-[32rem]">
+      <div className="relative w-full h-auto mb-1 overflow-hidden rounded-lg rounded-b-none">
         <img
           src={img || "/api/placeholder/400/320"}
           alt={name}
@@ -116,7 +116,7 @@ const Projects = () => {
               My Projects
             </div>
             <div>
-              <div className="text-white font-bold text-3xl md:text-4xl pt-4">
+              <div className="text-white font-bold text-3xl md:text-4xl pt-2">
                 Check out my latest work
               </div>
             </div>
@@ -127,7 +127,7 @@ const Projects = () => {
               </div>
             </div>
             <div>
-              <div className="grid md:grid-cols-2 grid-col-1">
+              <div className="grid md:grid-cols-2 grid-col-1 gap-[0.4rem]">
                 {projdata.map((project, index) => (
                   <ProjItems key={index} {...project} />
                 ))}
