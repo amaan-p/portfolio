@@ -65,7 +65,15 @@ const ProjItems = ({ name, duration, desc, tech, gitlinks, websitelink, img }) =
 };
 const Projects = () => {
   const projdata = [
-    
+    {
+      name: "MovieMix- Discover Movies",
+      duration: "January 2025 - January 2025",
+      "desc": "A simple platform to find where to watch your favorite films without endless searching or sign-ups.",
+      tech: ["React", "TailwindCSS", "NodeJS", "TMDB API", "JavaScript"],
+      gitlinks: "https://github.com/amaan-p/MovieMix",
+      websitelink: "https://movie-mix-fawn.vercel.app/",
+      img: "/MovieMix.png",
+    },
     {
       name: "LUCIA A LLM-FER Assistant",
       duration: "December 2023 - March 2024",
@@ -95,15 +103,7 @@ const Projects = () => {
       websitelink: null,
       img: "/Reearth.png",
     },
-    {
-      name: "Kayana EPOS Website",
-      duration: "October 2022 - June 2023",
-      desc: "Developed a website for Kayana.co.uk, one of the largest EPOS providers in the UK. The site was created from scratch using WordPress, PHP, and Elementor.",
-      tech: ["PHP", "Wordpress","Elementor", "Figma", "Yoast SEO"],
-      gitlinks: null,
-      websitelink: "https://www.kayana.co.uk/",
-      img: "/kayana.png",
-    },
+
  
   ];
 
